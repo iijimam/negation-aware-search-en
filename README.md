@@ -6,6 +6,9 @@ However, in real use, I encountered cases where results that are “close in mea
 
 This is a serious issue in situations where **affirmation vs. negation** matters. If the system returns the wrong answer, the impact can be significant, so we cannot ignore this problem.
 
+This article does not propose a new algorithm.
+I wrote it to share a practical way I found useful when semantic search fails due to negation.
+
 ![](./assets/image-en.jpg)
 
 In this article, I introduce a design that complements "logical differences" that vector search cannot handle well by combining **LLMs and SQL**.
@@ -1083,6 +1086,9 @@ This design complements a limitation of embeddings (negation/affirmation) by sep
 * **logical control / validation** (LLM-extracted states, SQL filtering, judge)
 
 If you can define key terms, this pattern can be applied not only to medical text but also to other domains where negation and affirmation are important.
+
+This is not a novel technique, but a combination of existing ideas.
+I hope this concrete example helps others who struggle with negation in vector search.
 
 ---
 

@@ -8,5 +8,9 @@ services:
     ports: ["8972:1972","8973:52773","8081:8080","8091:8090"]
     container_name: negation_aware_search_en
     volumes: ["./src:/src"]
-    environment: 
+    #runtime: nvidia
+    environment:
       - TZ=JST-9
+    #  - NVIDIA_VISIBLE_DEVICES=all
+    #  - NVIDIA_DRIVER_CAPABILITIES=compute,utility
+
