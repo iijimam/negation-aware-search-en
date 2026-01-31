@@ -1023,8 +1023,9 @@ In many systems, search pipelines try to reduce the number of large data transfe
 One approach in InterSystems IRIS is **Embedded Python**.
 
 > 📖 For details about Embedded Python, see:
-> [Webinar archive: Database Programming with Python](https://youtu.be/fMxWwf3alNY?list=PLzSN_5VbNaxB39_H2QMMEG_EsNEFc0ASz) /
-> [Article (JP): A brief introduction to Embedded Python](https://jp.community.intersystems.com/node/511336)
+> - [[Video] What is Embedded Python](https://community.intersystems.com/node/512786)
+> - [[Community article] Embedded Python tag](https://community.intersystems.com/tags/embedded-python)
+> - [[Document]Introduction to Embedded Python](https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=AFL_epython)
 
 You can run SQL via SQLAlchemy, but with Embedded Python you can execute the two vector searches on the server side and run business logic without transferring large datasets back and forth.
 
