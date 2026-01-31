@@ -36,6 +36,7 @@ Contents:
   - [(9) How to run the sample](#9-how-to-run-the-sample)
     - [Embedded Python version](#embedded-python-version)
     - [SQLAlchemy version](#sqlalchemy-version)
+    - [Sample Questions](#sample-questions)
 
 ---
 
@@ -1136,33 +1137,33 @@ Open UI: `http://localhost:8091`  (mapped from container port 8090)
 
 ![](./assets/sampleapp-image.jpg)
 
-- Sample Questions
+### Sample Questions
 
- - The patient had fever and cough but did not require supplemental oxygen during the hospital course. The pneumonia was relatively mild.
- - The patient was admitted for community-acquired pneumonia but remained on room air throughout hospitalization; supplemental oxygen was not required.
- - The patient was admitted for pneumonia; respiratory status was stable and no oxygen therapy was administered.
- - The patient was admitted with dyspnea and received supplemental oxygen, but ICU-level care was not necessary.
- - Hypoxemia was noted on admission and was managed with nasal cannula oxygen; the patient was managed on the general ward.
- - Supplemental oxygen was provided, but the patient did not deteriorate and did not require ICU admission.
- - The patient was admitted with severe pneumonia and required ICU-level care due to worsening respiratory status.
- - The patient developed respiratory failure after admission and required management in the intensive care unit.
- - Community-acquired pneumonia progressed to severe disease, requiring comprehensive ICU management.
- - During treatment for pneumonia, glycemic control for diabetes mellitus became necessary and insulin therapy was administered.
- - With a history of diabetes mellitus, glycemic management was implemented in parallel with treatment of the infection.
- - In this patient with diabetes mellitus, inpatient management included initiation of insulin therapy.
- - Antibiotics were started intravenously and, after clinical improvement, transitioned to oral therapy.
- - The patient was treated with intravenous antibiotics during hospitalization and was subsequently switched to oral agents.
- - Intravenous antibiotics were initiated, and the patient was transitioned to oral antibiotics before discharge.
- - Symptoms improved with treatment, and the patient was discharged home in stable condition.
- - Inflammatory markers improved, and the patient was discharged home without issues.
- - After confirming clinical improvement, the patient was discharged home.
- - The patient was admitted with dyspnea and received supplemental oxygen for desaturation. Chest X-ray showed congestion, and the condition improved with diuretics. Antibiotic therapy for pneumonia was not the main focus.
- - The patient was brought in by ambulance with orthopnea; hypoxemia persisted despite oxygen therapy, so NPPV was initiated. Respiratory status improved with intravenous diuretics, and acute heart failure exacerbation—not infection—was the primary cause.
- - The patient was admitted with cough and dyspnea and received supplemental oxygen. The condition improved with bronchodilators and steroids; imaging showed no clear pneumonia, and COPD exacerbation was the predominant issue.
- - The patient was admitted with worsening respiratory status and started on supplemental oxygen for desaturation. NPPV was initiated for hypercapnia, and treatment targeted COPD exacerbation more than antibiotic therapy.
- - The patient was admitted with high fever and cough and received short-term oxygen for desaturation. A rapid test was positive for influenza, and the patient improved primarily with supportive care rather than antibiotics.
- - The patient was admitted with cough, sputum, and fever, but chest imaging did not clearly show pneumonia. The patient improved with symptomatic treatment; supplemental oxygen and ICU care were not required.
- - The patient was admitted with worsening exertional dyspnea and received supplemental oxygen for desaturation. There were few signs of infection; treatment was centered on steroids (antibiotics were adjunctive).
- - After choking, the patient developed fever and cough and was admitted. Intravenous antibiotics were started for aspiration pneumonia, and swallowing evaluation with diet modification was performed. Antibiotics were later transitioned to oral therapy after improvement.
- - The patient was admitted with high fever and elevated inflammatory markers and started on intravenous antibiotics. Respiratory symptoms were mild with little evidence of pneumonia; pyelonephritis was the primary cause. After improvement, antibiotics were switched to oral therapy and the patient was discharged.
- - The patient was admitted with high fever and altered mental status, and intravenous antibiotics and fluids were initiated. Supplemental oxygen was given for desaturation, but the suspected source was outside the lungs; the patient was treated for sepsis.
+- The patient had fever and cough but did not require supplemental oxygen during the hospital course. The pneumonia was relatively mild.
+- The patient was admitted for community-acquired pneumonia but remained on room air throughout hospitalization; supplemental oxygen was not required.
+- The patient was admitted for pneumonia; respiratory status was stable and no oxygen therapy was administered.
+- The patient was admitted with dyspnea and received supplemental oxygen, but ICU-level care was not necessary.
+- Hypoxemia was noted on admission and was managed with nasal cannula oxygen; the patient was managed on the general ward.
+- Supplemental oxygen was provided, but the patient did not deteriorate and did not require ICU admission.
+- The patient was admitted with severe pneumonia and required ICU-level care due to worsening respiratory status.
+- The patient developed respiratory failure after admission and required management in the intensive care unit.
+- Community-acquired pneumonia progressed to severe disease, requiring comprehensive ICU management.
+- During treatment for pneumonia, glycemic control for diabetes mellitus became necessary and insulin therapy was administered.
+- With a history of diabetes mellitus, glycemic management was implemented in parallel with treatment of the infection.
+- In this patient with diabetes mellitus, inpatient management included initiation of insulin therapy.
+- Antibiotics were started intravenously and, after clinical improvement, transitioned to oral therapy.
+- The patient was treated with intravenous antibiotics during hospitalization and was subsequently switched to oral agents.
+- Intravenous antibiotics were initiated, and the patient was transitioned to oral antibiotics before discharge.
+- Symptoms improved with treatment, and the patient was discharged home in stable condition.
+- Inflammatory markers improved, and the patient was discharged home without issues.
+- After confirming clinical improvement, the patient was discharged home.
+- The patient was admitted with dyspnea and received supplemental oxygen for desaturation. Chest X-ray showed congestion, and the condition improved with diuretics. Antibiotic therapy for pneumonia was not the main focus.
+- The patient was brought in by ambulance with orthopnea; hypoxemia persisted despite oxygen therapy, so NPPV was initiated. Respiratory status improved with intravenous diuretics, and acute heart failure exacerbation—not infection—was the primary cause.
+- The patient was admitted with cough and dyspnea and received supplemental oxygen. The condition improved with bronchodilators and steroids; imaging showed no clear pneumonia, and COPD exacerbation was the predominant issue.
+- The patient was admitted with worsening respiratory status and started on supplemental oxygen for desaturation. NPPV was initiated for hypercapnia, and treatment targeted COPD exacerbation more than antibiotic therapy.
+- The patient was admitted with high fever and cough and received short-term oxygen for desaturation. A rapid test was positive for influenza, and the patient improved primarily with supportive care rather than antibiotics.
+- The patient was admitted with cough, sputum, and fever, but chest imaging did not clearly show pneumonia. The patient improved with symptomatic treatment; supplemental oxygen and ICU care were not required.
+- The patient was admitted with worsening exertional dyspnea and received supplemental oxygen for desaturation. There were few signs of infection; treatment was centered on steroids (antibiotics were adjunctive).
+- After choking, the patient developed fever and cough and was admitted. Intravenous antibiotics were started for aspiration pneumonia, and swallowing evaluation with diet modification was performed. Antibiotics were later transitioned to oral therapy after improvement.
+- The patient was admitted with high fever and elevated inflammatory markers and started on intravenous antibiotics. Respiratory symptoms were mild with little evidence of pneumonia; pyelonephritis was the primary cause. After improvement, antibiotics were switched to oral therapy and the patient was discharged.
+- The patient was admitted with high fever and altered mental status, and intravenous antibiotics and fluids were initiated. Supplemental oxygen was given for desaturation, but the suspected source was outside the lungs; the patient was treated for sepsis.
