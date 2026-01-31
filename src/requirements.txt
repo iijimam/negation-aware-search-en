@@ -1,0 +1,8 @@
+streamlit==1.52.2
+openai
+sqlalchemy-iris
+sentence-transformers
+transformers
+torch
+safetensors
+huggingface_hub

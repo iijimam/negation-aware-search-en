@@ -1,0 +1,12 @@
+services:  
+  iris:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file:
+      - .env
+    ports: ["8972:1972","8973:52773","8081:8080","8091:8090"]
+    container_name: negation_aware_search_en
+    volumes: ["./src:/src"]
+    environment: 
+      - TZ=JST-9
