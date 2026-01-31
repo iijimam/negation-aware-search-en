@@ -4,6 +4,7 @@ import re
 from typing import Any, Dict, List, Tuple,Optional
 from string import Template
 from sentence_transformers import CrossEncoder
+import torch
 
 import iris
 
@@ -54,7 +55,8 @@ def initial():
     global reranker
     #Create a Relank instance
     #BAAI/bge-reranker-v2-m3 is loaded into /opt/src/models/bge-reranker within the Dockerfile.
-    reranker = CrossEncoderReranker(model_name="/opt/src/models/bge-reranker", device="cpu")       
+    DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
+    reranker = CrossEncoderReranker(model_name="/opt/src/models/bge-reranker", device=DEVICE)    
 
 initial()
 
