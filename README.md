@@ -1008,7 +1008,63 @@ FINAL CHECK (MANDATORY):
 """
 ```
 
+JSON to pass to the LLM as a judge
+
+```json
+{
+    "decision": {
+        "top_doc_id": 151,
+        "is_similar_enough": true,
+        "confidence": 1,
+        "summary": "partial: no STRONG-flag contradiction exists",
+        "missing_info": []
+    },
+    "ranking": [
+        {
+            "doc_id": 151,
+            "rank": 1,
+            "relevance": 1,
+            "verdict": "partial",
+            "reasons": [
+                "HasOxygenTherapy query=0 doc=0 match",
+                "HasICUCare query=null doc=null neutral",
+                "HasNPPV query=null doc=null neutral",
+                "HasIntubation query=null doc=null neutral",
+                "HasMechanicalVentilation query=null doc=null neutral"
+            ]
+        },
+        {
+            "doc_id": 12,
+            "rank": 2,
+            "relevance": 0.9,
+            "verdict": "partial",
+            "reasons": [
+                "HasOxygenTherapy query=0 doc=0 match",
+                "HasICUCare query=null doc=0 neutral",
+                "HasNPPV query=null doc=null neutral",
+                "HasIntubation query=null doc=null neutral",
+                "HasMechanicalVentilation query=null doc=null neutral"
+            ]
+        },
+        {
+            "doc_id": 203,
+            "rank": 3,
+            "relevance": 0.8,
+            "verdict": "partial",
+            "reasons": [
+                "HasOxygenTherapy query=0 doc=0 match",
+                "HasICUCare query=null doc=0 neutral",
+                "HasNPPV query=null doc=null neutral",
+                "HasIntubation query=null doc=null neutral",
+                "HasMechanicalVentilation query=null doc=null neutral"
+            ]
+        }
+    ]
+}
+```
 </details>
+
+<br>
 
 In high-stakes domains such as medical, legal, or business search, we need explicit evidence for decisions. This workflow can be one practical approach.
 
